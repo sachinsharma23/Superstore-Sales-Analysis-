@@ -1,6 +1,6 @@
 # Retail Sales Analysis (SQL)
 
-This is a beginner SQL project where I analyzed a retail sales dataset to understand sales and profit performance across regions, states, categories, customer segments, discounts, and shipping modes.
+This is a SQL project where I analyzed a retail sales dataset to understand sales and profit performance across regions, states, categories, customer segments, discounts, and shipping modes.
 
 Dataset - superstore.csv 
 Source - https://www.kaggle.com/datasets/ibrahimelsayed182/superstore
