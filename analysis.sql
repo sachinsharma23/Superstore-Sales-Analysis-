@@ -3,6 +3,26 @@
 -- table: superstore_sales
 
 
+-- table creation
+drop table if exists superstore_sales;
+
+create table superstore_sales (
+  ship_mode text,
+  segment text,
+  country text,
+  city text,
+  state text,
+  postal_code text,
+  region text,
+  category text,
+  sub_category text,
+  sales numeric,
+  quantity integer,
+  discount numeric,
+  profit numeric
+);
+
+
 -- data validation checks
 -- total rows in dataset
 select count(*) as total_rows
@@ -164,7 +184,7 @@ order by s.region, s.sales desc
 limit 50;
 
 
--- q13) rank states by total sales (window function)
+-- q13) rank states by total sales 
 select
   state,
   sum(sales) as total_sales,
